@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '20.15.0'
+        node-version: '20'
 
     - name: Install dependencies
       run: npm install
@@ -35,12 +35,10 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '20.15.0'
+        node-version: '20'
 
     - name: Install dependencies
       run: npm install
 
     - name: Deploy to Vercel
-      run: npx vercel --prod
-      env:
-        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      run: npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }}  

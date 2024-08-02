@@ -35,4 +35,3 @@ This project utilizes GitHub Actions for CI/CD. The workflow includes:
 
 ## Repository Link
 
-[GitHub Repository](<repository-url>)

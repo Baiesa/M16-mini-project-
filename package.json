@@ -35,10 +35,12 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^6.4.8",
     "@testing-library/react": "^16.0.0",
     "babel-jest": "^29.7.0",
-    "jest": "^27.5.1",
+    "jest": "^29.7.0",
+    "jest-watch-typeahead": "^2.2.2",
     "react-test-renderer": "^18.3.1"
   }
 }
